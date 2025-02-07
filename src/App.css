@@ -1,0 +1,73 @@
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .tabs button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #007aff;
+    color: white;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tabs button:hover {
+    background-color: #005bb5;
+  }
+  
+  .file-storage-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .file-upload .upload-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007aff;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .file-upload .upload-button:hover {
+    background-color: #005bb5;
+  }
+  
+  .file-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .file-list li {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    color: #1c1c1e;
+  }
+  
+  .file-list button {
+    background-color: #ff3b30;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .file-list button:hover {
+    background-color: #c41c00;
+  }
